@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Data Deletion Instructions — Storm Studio Publisher</title>
+  <style>
+    body { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+           max-width: 720px; margin: 3rem auto; padding: 0 1.25rem; color: #1d1d1f;
+           line-height: 1.65; background: #fafafa; }
+    h1 { font-size: 1.6rem; margin-bottom: 0.25rem; }
+    .updated { color: #888; font-size: 0.85rem; margin-bottom: 2rem; }
+    h2 { font-size: 1.15rem; margin-top: 2rem; }
+    p { color: #333; }
+    a { color: #0066cc; }
+    code { background: #efefef; padding: 0.1em 0.3em; border-radius: 3px; font-size: 0.9em; }
+    .back { display: inline-block; margin-top: 3rem; font-size: 0.9rem; }
+  </style>
+</head>
+<body>
+  <h1>Data Deletion Instructions</h1>
+  <p class="updated">Last updated: May 2, 2026</p>
+
+  <p><strong>Storm Studio Publisher</strong> is a private content publishing tool
+     operated by a single individual (the "Operator") to upload short-form video
+     content to Pages and channels owned by the Operator on third-party platforms,
+     including Facebook Pages and YouTube channels.</p>
+
+  <h2>1. What data the Tool stores</h2>
+  <p>Storm Studio Publisher does not have end users and does not collect personal
+     data from any third party. It only stores:</p>
+  <ul>
+    <li>OAuth access tokens and refresh tokens issued by Meta and YouTube to the
+        Operator's own accounts, encrypted at rest on a private server controlled
+        by the Operator.</li>
+    <li>Operational logs (timestamps, HTTP status codes, error traces) used for
+        debugging. These contain no personal data of any third party.</li>
+  </ul>
+
+  <h2>2. Requesting deletion of your data from Meta</h2>
+  <p>If you are the Operator and want Storm Studio Publisher to delete its
+     reference to your Meta account / Pages / tokens, you can do either of the
+     following:</p>
+  <ol>
+    <li>Go to your Facebook profile <strong>Settings → Apps and Websites →
+        Active</strong>, find <em>Storm Studio Publisher</em>, and remove it.
+        This invalidates all tokens the Tool holds for your account; the Tool
+        loses all ability to access your data automatically and within 30 days
+        purges any cached references during its routine cleanup.</li>
+    <li>Send an email to
+        <a href="mailto:andersonrocha.rs@live.com">andersonrocha.rs@live.com</a>
+        with the subject <code>Data Deletion Request — Storm Studio</code> and
+        a description of which Page or account you want removed. The Operator
+        will manually delete the requested data from the server within 7 days
+        and reply to confirm.</li>
+  </ol>
+
+  <h2>3. Confirmation code</h2>
+  <p>This page also functions as the response endpoint for Meta's
+     <em>Data Deletion Callback</em>. Per Meta requirements, when a user removes
+     this app from their Facebook account, the Operator processes the deletion
+     and confirms it. To check the status of a specific deletion request, send
+     an email to
+     <a href="mailto:andersonrocha.rs@live.com">andersonrocha.rs@live.com</a>
+     with your confirmation code.</p>
+
+  <h2>4. Operator</h2>
+  <p>
+    Anderson Rodrigo Rocha LTDA<br>
+    CNPJ: 58.901.771/0001-30<br>
+    Porto Alegre, RS, Brazil<br>
+    <a href="mailto:andersonrocha.rs@live.com">andersonrocha.rs@live.com</a>
+  </p>
+
+  <a class="back" href="index.html">&larr; Back</a>
+</body>
+</html>
